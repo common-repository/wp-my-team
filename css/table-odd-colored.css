@@ -1,0 +1,49 @@
+.mt-table-odd-colored {
+	width: 100%; 
+    border-collapse: collapse;
+	
+	}
+
+.mt-table-odd-colored tr:nth-of-type(odd) { 
+  background:#f5f5f5;
+}
+
+.mt-table-odd-colored img {
+	margin-left:5px;
+	vertical-align:baseline;
+	}
+
+.mt-table-odd-colored td {
+	vertical-align:middle;
+}
+
+
+@media 
+only screen and (max-width: 480px) {
+
+	/* Force table to not be like tables anymore */
+	.mt-table-odd-colored table, .mt-table-odd-colored thead, .mt-table-odd-colored tbody, .mt-table-odd-colored th, .mt-table-odd-colored td, .mt-table-odd-colored tr { 
+		display: block; 
+	}
+	
+	
+	
+	.mt-table-odd-colored tr { }
+	
+	.mt-table-odd-colored td { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+		padding: 5px; 
+	}
+	
+	.mt-table-odd-colored td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}

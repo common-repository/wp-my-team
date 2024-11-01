@@ -1,0 +1,87 @@
+/*Filter Style*/
+.mt-current-li {
+	background-image: url(../img/gray.png);
+	background-repeat: repeat;
+	color:#222;
+}
+#mt-filter-nav li, #mt-enhance-filter-nav li {
+	display:inline-block;
+	padding:5px 10px;
+	cursor:pointer;
+	margin:0px;
+}
+.mt-theme-card-style .myteam-inner-box {
+	display:inline-block;
+	margin:0 auto;
+	transition: 0.6s;
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+	-o-transition: 0.6s;
+	-ms-transition: 0.6s;
+	border:1px solid #FFFFFF;
+	background-image: url(../img/gray.png);
+	background-repeat: repeat;
+	}
+.mt-theme-card-style  .myteam-inner-box:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	position: relative;
+	z-index: 5;
+	 transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    -ms-transition: 0.6s;
+	}
+
+.mt-theme-card-style .myteam-box-photo {
+	line-height:0;
+	padding:0;
+	margin:0;
+}
+
+.mt-theme-card-style .myteam-box-photo img {
+	padding:0;
+	margin:0;
+}
+
+.mt-theme-card-style .myteam-box-photo img:hover {
+	
+}
+
+.mt-theme-card-style .myteam-box-info {
+		
+		
+				
+}
+
+.mt-theme-card-style .myteam-box-title {
+	font-size:1.2em;
+	padding:3px 5px;
+	color:#000;
+	text-decoration:none;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+	
+.mt-theme-card-style .myteam-box-details {
+	padding:5px;	
+	}
+	
+
+
+
+
+.mt-theme-card-style .myteam-box-social {}
+
+.mt-theme-card-style .myteam-box-details {}
+
+.mt-theme-card-style .myteam-single-position { 
+	font-style:italic;
+}
+.mt-theme-card-style .myteam-single-email{}
+.mt-theme-card-style .myteam-single-telephone{}
+.mt-theme-card-style .myteam-single-location{}
+.mt-theme-card-style .myteam-single-shortbio{}
+.mt-theme-card-style .myteam-single-website{}

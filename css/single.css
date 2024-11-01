@@ -1,0 +1,51 @@
+#myteam-single-wrap img { 
+
+}
+
+#myteam-wrap img { 
+
+}
+
+
+/* SINGLE PAGE STYLES */
+
+.myteam-single-position, 
+.myteam-single-email, 
+.myteam-single-telephone, 
+.myteam-single-shortbio, 
+.myteam-single-website {
+	padding:2px 1px;
+}
+
+.myteam-single-position {
+	font-weight:bold;	
+}
+
+/* VCARD STYLE */
+
+.myteam-vcard {
+	border:1px solid #f5f5f5;
+	padding:5px;
+	margin:5px 0px 20px 0px;
+	display:inline-block;
+	width:100%;
+	font-size:0.9em;
+	}
+
+.myteam-vcard-left {
+	float:left;
+	padding:5px;
+	width:25%;
+}
+
+.myteam-vcard-right {
+	padding:5px;
+	width:100%;
+}
+
+.myteam-vcard-social {
+	padding:5px;
+}
+.myteam-vcard-social a {
+	padding:2px;
+}

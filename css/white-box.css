@@ -1,0 +1,83 @@
+/*
+Retro looking box theme
+Feel free to edit
+*/
+
+.mt-white-box-style .myteam-inner-box {
+	display:inline-block;
+	margin:0 auto;
+	/*width:90%;*/ /*Uncomment if you want the boxes to have a fixed with. Works better when image is on the left and content on the right */
+	background: #FFFFFF; 
+	border:1px solid #CCC;
+	-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	padding:5px 5px 2px 5px;
+	 transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    -ms-transition: 0.6s;	
+	}
+
+
+	
+.mt-white-box-style  .myteam-inner-box:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	position: relative;
+	z-index: 5;
+	 transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    -ms-transition: 0.6s;	
+	}
+
+.mt-white-box-style .myteam-box-photo {	
+	padding:0;
+	margin:0;
+}
+
+.mt-white-box-style .mt-img-left img {
+	padding:0 10px 0 0;
+	}
+
+.mt-white-box-style .mt-img-above img {
+	padding:0;
+	}
+
+.mt-white-box-style .myteam-box-photo img:hover {
+	
+}
+
+.mt-white-box-style .myteam-box-info {
+	padding:2px 2px 10px 2px;	
+}
+
+.mt-white-box-style .myteam-box-title {
+	font-weight:bold;
+	font-size:1.1em;
+	padding:3px;
+	
+	
+	}
+#myteam-hover-wrap .mt-white-box-style .myteam-box-title a:link {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#myteam-hover-wrap .mt-white-box-style .myteam-box-title a:hover {
+	color:#FFF;
+	text-decoration:underline;
+}
+
+.mt-white-box-style .myteam-box-social {}
+.mt-white-box-style .myteam-box-details { }
+.mt-white-box-style .myteam-single-position {}
+.mt-white-box-style .myteam-single-email{}
+.mt-white-box-style .myteam-single-telephone{}
+.mt-white-box-style .myteam-single-location{}
+.mt-white-box-style .myteam-single-shortbio{}
+.mt-white-box-style .myteam-single-website{}
